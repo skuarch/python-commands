@@ -18,3 +18,12 @@ conda env create -f <environment-name>.yml
 
 #Install from .txt file
 conda create --name <env_name> --file <.txt file>
+
+#Remove conda environments
+conda env remove -n <env_name>
+
+#Duplicate conda environments
+conda create --name <clone_name> --clone <env_name>
+
+#List Conda environments
+conda env list
