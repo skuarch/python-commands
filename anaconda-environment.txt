@@ -1,0 +1,2 @@
+#Install from .txt file
+conda create --name <env_name> --file <.txt file>
