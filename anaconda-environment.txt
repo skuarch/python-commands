@@ -27,3 +27,7 @@ conda create --name <clone_name> --clone <env_name>
 
 #List Conda environments
 conda env list
+
+#update conda
+conda update conda
+conda update conda-build
