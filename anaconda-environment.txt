@@ -9,8 +9,10 @@ conda list -e > requirements.txt #Save all the info about packages to your folde
 #Install from .txt file
 conda create --name <env_name> --file <.txt file>
 
+#activate environment
+conda activate <environment-name>
+
 #To export environment file
-activate <environment-name>
 conda env export > <environment-name>.yml
 
 #For other person to use the environment
